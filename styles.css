@@ -1,0 +1,202 @@
+body {
+    background-image: linear-gradient(skyblue, steelblue);
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 15px;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+form {
+    justify-self: center;
+    align-self: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    font-family: "Caveat Brush", cursive;
+    flex-direction: column;
+    font-size: 2em;
+    width: 75%;
+    color: white;
+    border: 5px solid white;
+    box-shadow: 0 0 50px gray;
+}
+#submit, button {
+    border: none;
+    padding: 10px;
+    font-family: "Caveat Brush", cursive;
+    font-size: 1em;
+    color: white;
+    background: darkblue;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0 0 50px darkblue;
+}
+
+button > a{
+    color:white;
+}
+
+input {
+    padding: 5px;
+    background: white;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-family: "Caveat Brush", cursive;
+    font-size: 0.75em;
+}
+
+select {
+    padding: 5px;
+    background: white;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-family: "Caveat Brush", cursive;
+    font-size: 0.75em;
+}
+fieldset {
+    border: 2px solid white;
+    width: 50%;
+}
+#submit:hover, button:hover {
+    box-shadow: none;
+    background: indigo;
+}
+
+.wrong-border {
+    border: 3px solid #990000;
+}
+.hidden {
+    display: none;
+}
+
+.right-border {
+    border: none;
+}
+.error {
+    padding: 10px;
+    align-items: center;
+    color: #ff8080;
+}
+
+.profile {
+    border:3px solid #ffffff;
+    border-radius: 10px;
+    padding:20px;
+    font-family: "Caveat Brush", cursive;
+    font-size: 3em;
+    color: #fff;
+}
+
+.profile> div{
+    background: #ff8080;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 5px 5px 0 #00f
+}
+
+.header{
+    top:0px;
+    width: 100%;
+    background: indigo;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px; 
+    display: flex;
+}
+
+.header > .btn {
+    background: skyblue;
+    border-radius: 5px;
+    padding: 10px;
+    justify-self: center;
+    font-size: 1.5rem;
+    margin-right: 15px;
+
+}
+
+.chatbox {
+    font-family: "Caveat Brush", cursive;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.chatbox > h1{
+    font-size: 4.5em;
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    color:white;
+}
+
+.insertbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.insertbox > #content {
+    width: 95%;
+}
+
+.mine{
+    text-align: right;
+}
+
+.other{
+    text-align: left;
+}
+
+.message {
+    border-radius:30px;
+    background: #ddd;
+    font-size: 1.5em;
+    padding:10px;
+    margin:10px;
+}
+
+.content{
+    background: #fff;
+    padding:5px;
+    font-size:1.35em;
+    border-radius:15px;
+}
+
+.time{
+    font-size: .75em;
+    color: #555;
+    padding:5px;
+}
+
+.friends_list{
+    list-style: none;
+    width: 100%;
+}
+
+.friends_list > li{
+    margin:30px;
+    width: 100%;
+}
+
+.friends_list > li > a{
+    font-family: "Caveat Brush", cursive;
+    padding: 10px;
+    width: 100%;
+    color: #990000;
+    font-size: 1.5em;
+    text-decoration: none;
+    background: #fff;
+    border-radius:5px;
+} 
+
+
