@@ -17,6 +17,7 @@
             action="updateuser.php"
             onsubmit="validateForm()"
             method="POST"
+            enctype="multipart/form-data"
         >
             <?php
                 session_start();
@@ -34,6 +35,7 @@
                 echo("<label for='password'>Password :-<input type='password' name='password' value='$profile_content[password]' /></label>");
                 echo("<label for='confirmPassword'>Confirm Password :-<input type='password' name='confirmPassword' value='$profile_content[password]' /></label>");
                 echo('<div class="error" id="confirmError"></div>');
+                echo("<label for='Images'>Profile Picture :-<input type='file' name='Images' /></label>");
                 echo('<input type="submit" id="submit" />');
                 echo('<label for="admin" class="hidden">Admin :- <input type="checkbox" name="admin" id="admin" /></label>');
             ?>    

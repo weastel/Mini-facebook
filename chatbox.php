@@ -12,6 +12,12 @@
     />
 </head>
 <body>
+    <div class="header">
+        <a class="btn" href="logout.php">Logout</a>
+        <a class="btn" href="edit.php">Edit</a>
+        <a class="btn" href="profile.php">Profile</a>
+        <a class="btn" href="chat.php">Friends</a>
+    </div>
     <div class="chatbox">
     <?php
         session_start();

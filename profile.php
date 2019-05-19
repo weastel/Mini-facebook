@@ -31,6 +31,7 @@
             $conn = new mysqli('localhost', 'admin', 'drumil', 'php_assignment');
             $profile = "SELECT * from USERS where id = '$id'";
             $profile_content = ($conn->query($profile))->fetch_assoc();
+            echo("<img src='images/".$profile_content['Images']."' >");
             echo("Name:- <div> $profile_content[name] </div> <br>");
             echo("Email:- <div> $profile_content[email] </div> <br>");
             echo("Age:- <div> $profile_content[age] </div> <br>");
